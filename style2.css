@@ -1,0 +1,101 @@
+body {
+    background-color: #181818;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.title1 {
+    text-align:left;
+    margin-left: 10px;
+    margin: 10px;
+    font-size:large  ;
+    
+}
+.ul1 {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+.ultitle2 {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.art1 {
+    border-style: double;
+    border-color:  #720000;
+    border-radius: 20px;
+    text-align: center;
+    left: 3px;
+    right: 3px;
+    width: 625PX;
+}
+.art2 {
+    border-style: double;
+    border-color: #720000;
+    border-radius: 20px;
+    text-align: center;
+    left: 3px;
+    right: 3px;
+}
+.li2 {
+    border-color: black;
+}
+.li3 {
+    border-color: black;
+}
+.li4 {
+    border-color: black;
+}
+button {
+  border-radius:px;
+  width:150px;
+  box-shadow:5px 5px 7px 4px rgba(0, 0, 0, 0.27);
+  border-width: px;
+  background-color: #a90000;
+  border-color: #720000;
+  padding-left: 5px;
+ } 
+button:active {
+      box-shadow:5px 5px 7px -2px  rgba(0, 0, 0, 0.27);
+      background-color: #720000;
+      color: rgb(113, 111, 109);
+}
+button:hover {
+     cursor: pointer;
+     background-color: #720000;
+     color: rgb(113, 111, 109);
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img1 {
+    border-bottom: 2px solid #a90000;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.imgJones {
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #a90000;
+    width: 115px;
+    transition: transform ease 0.3;
+}
+.title2 {
+    margin-left: 28px;
+}
+.imgJones:hover {
+    cursor:pointer;
+    transform: scale(1.05);
+}
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
